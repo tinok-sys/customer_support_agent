@@ -1,0 +1,44 @@
+[
+  {
+    "id": "KB001",
+    "title": "How to reset your password",
+    "content": "To reset your password, go to the login page and click 'Forgot Password'. Enter your registered email address and you will receive a password reset link within 5 minutes. If you don't receive the email, check your spam folder or contact support.",
+    "category": "account",
+    "tags": ["password", "login", "account", "reset"]
+  },
+  {
+    "id": "KB002",
+    "title": "Refund policy overview",
+    "content": "We offer a 30-day money-back guarantee on all subscriptions. Refunds are processed within 5-10 business days after approval. Partial refunds may be issued based on usage. Contact billing support to initiate a refund request.",
+    "category": "billing",
+    "tags": ["refund", "money-back", "subscription", "billing"]
+  },
+  {
+    "id": "KB003",
+    "title": "API rate limits",
+    "content": "Our API allows 1000 requests per minute for standard tier, 5000 for premium tier, and 20000 for enterprise tier. Rate limits are calculated on a rolling 60-second window. If you exceed the limit, you will receive a 429 Too Many Requests response.",
+    "category": "technical",
+    "tags": ["api", "rate-limit", "429", "requests"]
+  },
+  {
+    "id": "KB004",
+    "title": "How to upgrade your plan",
+    "content": "Go to Settings > Billing > Plan and click 'Upgrade'. Your new plan will be effective immediately and the difference will be prorated. Downgrades take effect at the end of the current billing cycle.",
+    "category": "billing",
+    "tags": ["upgrade", "downgrade", "plan", "billing"]
+  },
+  {
+    "id": "KB005",
+    "title": "Common error codes and solutions",
+    "content": "Error 400: Invalid request parameters. Check your JSON payload. Error 401: Authentication failed. Verify your API key. Error 403: Insufficient permissions. Contact admin. Error 500: Internal server error. Wait and retry.",
+    "category": "technical",
+    "tags": ["error", "400", "401", "403", "500", "troubleshooting"]
+  },
+  {
+    "id": "KB006",
+    "title": "Payment methods accepted",
+    "content": "We accept Visa, Mastercard, American Express, PayPal, and bank transfers (for enterprise plans). All payments are processed securely through Stripe. We do not store your credit card information.",
+    "category": "billing",
+    "tags": ["payment", "credit-card", "paypal", "stripe"]
+  }
+]
